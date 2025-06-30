@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import AnimatedButton from './AnimatedButton'
-import Link from 'next/link'
 
 function CTA() {
   return (
