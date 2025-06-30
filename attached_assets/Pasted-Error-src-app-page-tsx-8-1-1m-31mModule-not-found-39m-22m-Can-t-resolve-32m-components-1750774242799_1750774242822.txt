@@ -1,0 +1,25 @@
+Error: ./src/app/page.tsx:8:1
+[1m[31mModule not found[39m[22m: Can't resolve [32m'@/components/Reviews'[39m
+[0m [90m  6 |[39m [36mimport[39m [33mHero[39m [36mfrom[39m [32m"@/components/Hero"[39m[33m;[39m[0m
+[0m [90m  7 |[39m [36mimport[39m [33mNavbar[39m [36mfrom[39m [32m"@/components/Navbar"[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m  8 |[39m [36mimport[39m [33mReviews[39m [36mfrom[39m [32m"@/components/Reviews"[39m[33m;[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m  9 |[39m[0m
+[0m [90m 10 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mHome[39m() {[0m
+[0m [90m 11 |[39m   [36mreturn[39m ([0m
+
+Import map: aliased to relative './src/components/Reviews' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+    at BuildError (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:17395:41)
+    at react-stack-bottom-frame (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:13596:24)
+    at renderWithHooks (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:3560:24)
+    at updateFunctionComponent (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:5317:21)
+    at beginWork (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:5916:24)
+    at runWithFiberInDEV (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:1335:74)
+    at performUnitOfWork (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:7988:97)
+    at workLoopSync (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:7880:40)
+    at renderRootSync (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:7863:13)
+    at performWorkOnRoot (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:7602:212)
+    at performWorkOnRootViaSchedulerTask (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:8566:9)
+    at MessagePort.performWorkUntilDeadline (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_a51498a5._.js:1119:64)

@@ -1,0 +1,23 @@
+Error: ./src/components/FAQs.tsx:34:6
+Parsing ecmascript source code failed
+[0m [90m 32 |[39m [36mfunction[39m [33mFAQs[39m() {[0m
+[0m [90m 33 |[39m   [36mreturn[39m ([0m
+[0m[31m[1m>[22m[39m[90m 34 |[39m     [33m<[39m[33mdiv[39m className[33m=[39m[32m'max-w-7xl mx-auto'[39m[33m>[39m[0m
+[0m [90m    |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 35 |[39m       [33m<[39m[33mdiv[39m className[33m=[39m[32m'flex items-center flex-col md:flex-row md:gap-24 gap-4'[39m[33m>[39m[0m
+[0m [90m 36 |[39m         [33m<[39m[33mh1[39m className[33m=[39m[32m'md:text-6xl text-3xl font-sans font-semibold tracking-tight md:text-nowrap max-md:text-center'[39m[33m>[39m[33mWhy[39m [33mMirweb[39m[33m?[39m[33m<[39m[33m/[39m[33mh1[39m[33m>[39m[0m
+[0m [90m 37 |[39m         [0m
+
+Unexpected token `div`. Expected jsx identifier
+    at BuildError (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:17395:41)
+    at react-stack-bottom-frame (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:13596:24)
+    at renderWithHooks (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:3560:24)
+    at updateFunctionComponent (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:5317:21)
+    at beginWork (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:5916:24)
+    at runWithFiberInDEV (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:1335:74)
+    at performUnitOfWork (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:7988:97)
+    at workLoopSync (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:7880:40)
+    at renderRootSync (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:7863:13)
+    at performWorkOnRoot (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:7602:212)
+    at performWorkOnRootViaSchedulerTask (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:8566:9)
+    at MessagePort.performWorkUntilDeadline (https://a6261ee6-6d04-49a4-ba3b-cf262475cb86-00-2h6vdqbibek7t.sisko.replit.dev/_next/static/chunks/node_modules_a51498a5._.js:1119:64)

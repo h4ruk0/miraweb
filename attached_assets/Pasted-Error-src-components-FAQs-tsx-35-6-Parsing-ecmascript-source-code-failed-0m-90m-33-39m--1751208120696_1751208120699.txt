@@ -1,0 +1,24 @@
+Error: ./src/components/FAQs.tsx:35:6
+Parsing ecmascript source code failed
+[0m [90m 33 |[39m [36mfunction[39m [33mFAQs[39m() {[0m
+[0m [90m 34 |[39m   [36mreturn[39m ([0m
+[0m[31m[1m>[22m[39m[90m 35 |[39m     [33m<[39m[33mdiv[39m className[33m=[39m[32m'bg-black'[39m[33m>[39m[0m
+[0m [90m    |[39m      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+[0m [90m 36 |[39m       [33m<[39m[33mdiv[39m className[33m=[39m[32m'max-w-7xl mx-auto px-8 py-16'[39m[33m>[39m[0m
+[0m [90m 37 |[39m         [33m<[39m[33mdiv[39m className[33m=[39m[32m'flex items-start flex-col md:flex-row md:gap-24 gap-8'[39m[33m>[39m[0m
+[0m [90m 38 |[39m         [33m<[39m[33mdiv[39m className[33m=[39m[32m'md:w-1/2'[39m[33m>[39m[0m
+
+Unexpected token `div`. Expected jsx identifier
+    at BuildError (https://430faead-776e-4de8-a90b-ccda223d4e30-00-sry8a7ek8lbj.pike.replit.dev/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:11135:41)
+    at react-stack-bottom-frame (https://430faead-776e-4de8-a90b-ccda223d4e30-00-sry8a7ek8lbj.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:14911:24)
+    at renderWithHooksAgain (https://430faead-776e-4de8-a90b-ccda223d4e30-00-sry8a7ek8lbj.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:6256:24)
+    at renderWithHooks (https://430faead-776e-4de8-a90b-ccda223d4e30-00-sry8a7ek8lbj.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:6207:28)
+    at updateFunctionComponent (https://430faead-776e-4de8-a90b-ccda223d4e30-00-sry8a7ek8lbj.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:7543:21)
+    at beginWork (https://430faead-776e-4de8-a90b-ccda223d4e30-00-sry8a7ek8lbj.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:8142:24)
+    at runWithFiberInDEV (https://430faead-776e-4de8-a90b-ccda223d4e30-00-sry8a7ek8lbj.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:3073:74)
+    at performUnitOfWork (https://430faead-776e-4de8-a90b-ccda223d4e30-00-sry8a7ek8lbj.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:10243:97)
+    at workLoopSync (https://430faead-776e-4de8-a90b-ccda223d4e30-00-sry8a7ek8lbj.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:10135:40)
+    at renderRootSync (https://430faead-776e-4de8-a90b-ccda223d4e30-00-sry8a7ek8lbj.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:10118:13)
+    at performWorkOnRoot (https://430faead-776e-4de8-a90b-ccda223d4e30-00-sry8a7ek8lbj.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:9853:212)
+    at performWorkOnRootViaSchedulerTask (https://430faead-776e-4de8-a90b-ccda223d4e30-00-sry8a7ek8lbj.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:10826:9)
+    at MessagePort.performWorkUntilDeadline (https://430faead-776e-4de8-a90b-ccda223d4e30-00-sry8a7ek8lbj.pike.replit.dev/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:1982:64)
