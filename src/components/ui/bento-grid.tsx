@@ -1,5 +1,4 @@
 import { cn } from "@/lib/utils";
-import { Badge } from "./badge";
 
 export const BentoGrid = ({
   className,
@@ -24,12 +23,10 @@ export const BentoGridItem = ({
   className,
   title,
   description,
-  upcoming = false
 }: {
   className?: string;
   title?: string | React.ReactNode;
   description?: string | React.ReactNode;
-  upcoming?: boolean
 }) => {
   return (
     <div
